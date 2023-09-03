@@ -31,8 +31,12 @@ const OffcambasEjercicios = () => {
           <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
+          <ul>
+          <li><Link to="/ejercicio-1-3">Ejercicio 1 a 3</Link></li>
+          <li><Link to="/ejercicio-4-5">Ejercicio 4 a 5</Link></li>
+          </ul>
+
           
-          <Link to="/ejercicio-1-3">Ejercicio 1 a 3</Link>
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -1,6 +1,7 @@
 import React from 'react'
 import OffcambasEjercicios from '../../components/OffcambasEjercicios'
-import AppEjerciciosA from './appEjerciciosA'
+import AppEjerciciosA from './01-03-Ejercicios/appEjerciciosA'
+
 
 const EjerciciosA = () => {
   return (
@@ -10,11 +11,11 @@ const EjerciciosA = () => {
         <h1 className="text-center">Ejercicios 1 a 3</h1>
         <div className="row">
           <article className="col-12">
-            <AppEjerciciosA />
-            
 
+            <AppEjerciciosA />       
 
           </article>
+         
         </div>
       </main>
 
