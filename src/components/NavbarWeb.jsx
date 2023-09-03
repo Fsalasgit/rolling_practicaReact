@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
+import { FaReact } from 'react-icons/fa';
 
 
 
@@ -11,15 +13,15 @@ const NavbarWeb = () => {
     <>      
         <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <NavLink to="/" className="logoPrincipal"><FaReact size={30}/></NavLink>
             <Nav className="ms-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <NavLink to="/" className="nav-link link">Home</NavLink>
+              <NavLink to="/" className="nav-link link"><FaReact/></NavLink>
+              <NavLink to="/" className="nav-link link">Home</NavLink>
             </Nav>
             </Container>
         </Navbar>
-    </>
+    </> 
   )
 }
 
