@@ -79,7 +79,7 @@ const AppEjerciciosB = () => {
 
       </main> 
     </>
-  )
+  );
 }
 
-export default AppEjerciciosB
+export default AppEjerciciosB;

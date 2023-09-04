@@ -17,14 +17,14 @@ const EjerciciosB = () => {
         <h1 className="text-center">Ejercicios 4 a 5</h1>
         <div className="row">
             <article className="col-12">
-              <h2>Lista de tareas - Dificultad:  🟢</h2>
+              <h2>4 - Lista de tareas - Dificultad:  🟢</h2>
 
               <p>Crear una aplicación web que  muestre una lista de tareas, al ingresar una tarea en el input y presionar enter.</p>
 
               <AppEjerciciosB/>
             </article>
             <article className="col-12 mt-5">
-              <h2>Lista de tareas (con localstorage)- Dificultad:  🟢🟡</h2>
+              <h2>5 - Lista de tareas (con localstorage)- Dificultad:  🟢🟡</h2>
 
               <p>Modifica el programa anterior para que las tareas se puedan almacenar en el localstorage.</p>
 

@@ -34,6 +34,13 @@ const IndexAcordeon = () => {
                     <Link to="/ejercicio-4-5">ver solucion...</Link>                  
                 </Accordion.Body>
             </Accordion.Item>
+            <Accordion.Item eventKey="4">
+                <Accordion.Header>5 - Lista de tareas - Dificultad:⭐⭐</Accordion.Header>
+                <Accordion.Body>
+                    <p>Modifica el programa anterior para que las tareas se puedan almacenar en el localstorage.</p>  
+                    <Link to="/ejercicio-4-5">ver solucion...</Link>                  
+                </Accordion.Body>
+            </Accordion.Item>
 
         </Accordion>
     </>

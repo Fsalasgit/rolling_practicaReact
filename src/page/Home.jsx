@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className="row d-flex justify-content-center">
           <div className="col-lg-8 m-5">
-              <IndexAcordeon />
+            <IndexAcordeon />
 
           </div>
         </div>
